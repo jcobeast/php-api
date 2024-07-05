@@ -1,0 +1,25 @@
+{
+    "name": "ranneljacobbulatao/php-api",
+    "description": "A simple RESTful API from PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PHP_API\\PhpApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rannel Jacob Bulatao",
+            "email": "ranneljcobeast@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.2.12"
+        }
+    },
+    "require": {
+        "php": ">=8.2.12",
+        "firebase/php-jwt": "^6.10"
+    }
+}
